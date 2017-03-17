@@ -1,0 +1,14 @@
+target/
+*/target/
+.metadata/
+.idea/
+*/.idea/
+*/.cache
+*/.classpath
+*/.project
+*/lib_managed/
+*/out/
+*/.settings/
+*/project/
+*/.worksheet/
+*.iml

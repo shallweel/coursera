@@ -66,7 +66,6 @@ trait Solver extends GameDef {
     */
   def from(initial: Stream[(Block, List[Move])],
            explored: Set[Block]): Stream[(Block, List[Move])] =
-
     if (initial.isEmpty) Stream.empty
     else {
       val more = for {
